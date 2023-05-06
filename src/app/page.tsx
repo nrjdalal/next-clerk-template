@@ -10,7 +10,7 @@ export default function Home() {
       </SignedIn>
 
       <SignedOut>
-        <Link href="sign-in">Please Sign In To Continue</Link>
+        <Link href="/sign-in">Please Sign In To Continue</Link>
       </SignedOut>
     </div>
   )
