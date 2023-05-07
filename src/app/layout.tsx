@@ -2,7 +2,7 @@ import './globals.css'
 
 import { Inter } from 'next/font/google'
 
-import { ClerkProvider } from '@clerk/nextjs'
+import { ClerkProvider } from '@clerk/nextjs/app-beta'
 
 import { cn } from '@/lib/utils'
 
@@ -30,7 +30,7 @@ export default function RootLayout({
       <html lang="en">
         <body
           className={cn(
-            'min-h-screen bg-background antialiased',
+            'min-h-screen bg-background font-sans antialiased',
             inter.className
           )}
         >
